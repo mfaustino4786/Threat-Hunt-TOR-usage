@@ -15,4 +15,5 @@
 4. Prepare the machine for onboarding to Microsoft Defender for Endpoint.
 
 ## 📷 Screenshots / Notes
-(Add any images or notes collected during VM provisioning.)
+![createVM](../screenshots/createvm.png)
+
