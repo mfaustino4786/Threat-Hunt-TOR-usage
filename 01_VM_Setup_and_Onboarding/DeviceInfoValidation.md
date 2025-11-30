@@ -3,9 +3,9 @@
 After onboarding, the DeviceInfo table should contain events.
 
 ## ✔ Validation Checklist
-- [ ] Device appears in Defender portal
-- [ ] DeviceInfo table logs have populated
-- [ ] Events show accurate OS and device metadata
+- [✔] Device appears in Defender portal
+- [✔] DeviceInfo table logs have populated
+- [✔] Events show accurate OS and device metadata
 
 ## 🔍 Validation Query
 
@@ -15,3 +15,6 @@ KQL:
 
 ## 📌 Notes
 Document timing, delays, or missing logs if applicable.
+
+![confirmonboard](../screenshots/confirmvmonboard.png)
+
