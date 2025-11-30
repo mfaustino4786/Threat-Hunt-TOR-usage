@@ -13,6 +13,3 @@ This project is part of a cybersecurity learning and threat hunting development 
 
 ---
 
-## 📂 Repository Structure Overview
-
-
