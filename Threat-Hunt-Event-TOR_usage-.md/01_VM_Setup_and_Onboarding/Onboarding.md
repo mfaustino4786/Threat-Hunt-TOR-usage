@@ -13,3 +13,7 @@
 DeviceInfo
 | where DeviceName == "threathuntmatt"
 | project DeviceName, OnboardingStatus, OSPlatform
+
+![Confirm VM Onboard](./screenshots/confirmvmonboard.png)
+
+
