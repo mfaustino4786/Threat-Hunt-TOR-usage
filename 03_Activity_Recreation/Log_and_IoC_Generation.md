@@ -35,7 +35,3 @@ DeviceNetworkEvents
 | order by TimeGenerated desc
 ```
 
----
-
-## 🖼 Screenshots
-Include screenshots of query results or logs.
