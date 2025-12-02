@@ -30,4 +30,3 @@ DeviceFileEvents
 
 ---
 
-Add any additional queries discovered during hunting.
