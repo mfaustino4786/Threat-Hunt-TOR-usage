@@ -64,7 +64,10 @@ These steps created identifiable Indicators of Compromise (IoCs) within Microsof
 ### TOR Execution Detection
 ```kql
 DeviceProcessEvents
-| where FileName in ("tor.exe") 
-    or FolderPath contains @"\Tor Browser\"
-| project Timestamp, DeviceName, FileName, ProcessCommandLine, InitiatingProcessFileName, FolderPath
-| order by Timestamp desc
+| where DeviceName == "threathuntmatt"
+| where ProcessCommandLine has_any ("tor.exe", "Tor Browser", "torbrowser", "Browser\\firefox.exe")
+    or FileName in~ ("tor.exe", "firefox.exe")
+| project Timestamp, FileName, FolderPath, ProcessCommandLine, InitiatingProcessAccountName, SHA256
+| order by Timestamp asc
+
+
