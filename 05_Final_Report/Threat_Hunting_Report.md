@@ -94,6 +94,13 @@ DeviceNetworkEvents
 ```
 ![networkevents](../screenshots/networkevents.png)
 
+```kql
+DeviceFileEvents
+| where DeviceName == "threathuntmatt"
+| where FileName contains "list"
+| project Timestamp, FileName, ActionType, FolderPath
 
+```
+![fileevenets](../screenshots/fileevents3.png)
 
 
