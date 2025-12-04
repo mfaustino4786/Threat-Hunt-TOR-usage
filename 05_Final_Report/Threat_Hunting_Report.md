@@ -30,6 +30,7 @@ The simulated adversary performed the following actions:
 4. Allowed TOR to establish encrypted circuits to guard/entry nodes.
 5. Accessed a `.onion` webpage for testing.
 6. Closed the browser and deleted the installer to mimic evasive behavior.
+7. Create a "shopping list" and deleted it.
 
 These steps created identifiable Indicators of Compromise (IoCs) within Microsoft Defender for Endpoint (MDE) and network logs.
 
